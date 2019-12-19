@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joyful World</title>
+    <style>
+    body {
+        background: rgb(156, 11, 11);
+        color: rgb(45, 45, 45);
+        padding: 10px;
+        font-family: arial;
+    }
+    header {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(239, 80, 41);
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
+    nav header {
+        display: flex;
+        align-items: center;
+        color: rgb(89, 214, 49);
+        flex: 1;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(130, 13, 218);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    .interests header {
+        font-size: 1.25em;
+    }
+    [id=all-contents] {
+       max-width: 800px;
+        margin: auto;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+    <div id="all-contents">
+        <nav>
+        <header> Joyful World </header>
+           </ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+              
+        </nav>
+            
+        
+        <main>
+            <div class="sidebar">
+                <img src="data:image/png;base64,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">
+            </div>
+            <div class="content">
+                <header> Julian Gros </header>
+                <p> Student at HHS </p>
+            <section class="interests">
+                <header>Interests</header>
+                <ul>
+                    <li>Taco Bell</li>
+                    <li>Video Games</li>
+                    <li>Football</li>
+            </section>
+        </main>
+        <div id="all-contents">
+            <div class="sidebar"></div>
+        </div>
+</body>
+</html>
